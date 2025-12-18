@@ -106,11 +106,6 @@ Command
 export MY_VAR="Hello, Linux!" 
  
 
-Verification (Optional) 
-
-echo $MY_VAR 
- 
-
 Explanation 
 
 export creates an environment variable named MY_VAR. 
