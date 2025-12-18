@@ -1,0 +1,118 @@
+Linux Basic Commands 
+
+1. Creating and Renaming Files/Directories 
+
+Commands 
+
+mkdir test_dir 
+cd test_dir 
+touch example.txt 
+mv example.txt renamed_example.txt 
+ 
+
+Explanation 
+
+mkdir test_dir creates a new directory named test_dir. 
+
+cd test_dir moves into the directory. 
+
+touch example.txt creates an empty file. 
+
+mv example.txt renamed_example.txt renames the file. 
+
+ 
+
+2. Viewing File Contents 
+
+Commands 
+
+cat /etc/passwd 
+head -n 5 /etc/passwd 
+tail -n 5 /etc/passwd 
+ 
+
+Explanation 
+
+cat displays the entire contents of /etc/passwd. 
+
+head -n 5 shows the first 5 lines. 
+
+tail -n 5 shows the last 5 lines. 
+
+ 
+
+3. Searching for Patterns 
+
+Command 
+
+grep "root" /etc/passwd 
+ 
+
+Explanation 
+
+grep searches for lines containing the word root in /etc/passwd. 
+
+ 
+
+4. Zipping and Unzipping 
+
+Commands 
+
+zip -r test_dir.zip test_dir 
+unzip test_dir.zip -d unzipped_dir 
+ 
+
+Explanation 
+
+zip -r compresses the test_dir directory into test_dir.zip. 
+
+unzip -d extracts the contents into a new directory called unzipped_dir. 
+
+ 
+
+5. Downloading Files 
+
+Command 
+
+wget https://example.com/sample.txt 
+ 
+
+Explanation 
+
+wget downloads a file from the given URL and saves it in the current directory. 
+
+ 
+
+6. Changing Permissions 
+
+Commands 
+
+touch secure.txt 
+chmod 444 secure.txt 
+ 
+
+Explanation 
+
+touch secure.txt creates a new file. 
+
+chmod 444 sets the file to read-only for owner, group, and others. 
+
+ 
+
+7. Working with Environment Variables 
+
+Command 
+
+export MY_VAR="Hello, Linux!" 
+ 
+
+Verification (Optional) 
+
+echo $MY_VAR 
+ 
+
+Explanation 
+
+export creates an environment variable named MY_VAR. 
+
+The variable value can be accessed using $MY_VAR. 
